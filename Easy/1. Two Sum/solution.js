@@ -4,7 +4,6 @@ var twoSum = function(nums, target) {
     for (let i = 0; i < nums.length; i++) { // base number
         for (let x = 0; x < nums.length; x++) { // comparing number
             if (x !== i) { // number not compared with self
-                console.log(`comparing ${nums[x]} with ${nums[i]}`)
                 if ((nums[x] + nums[i]) == target) {
                     return [x, i]
                 }
