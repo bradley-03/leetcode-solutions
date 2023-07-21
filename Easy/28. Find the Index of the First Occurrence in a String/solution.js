@@ -15,5 +15,3 @@ var strStr = function(haystack, needle) {
     }
     return -1 // return -1 as no index was found
 };
-
-console.log(strStr('opkdwkdokpwbutsad', 'sad'))
