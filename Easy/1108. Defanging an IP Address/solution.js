@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/defanging-an-ip-address/description/
 
-// shift whole string over by three 
-
 var defangIPaddr = function(address) {
     let output = ''
     for (let i = 0; i < address.length; i++) {
