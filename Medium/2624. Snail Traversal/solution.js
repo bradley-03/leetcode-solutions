@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/snail-traversal/
+
 Array.prototype.snail = function (rowsCount, colsCount) {
     const output = Array(rowsCount).fill(null).map(() => Array(colsCount).fill(0));
     let index = 0
